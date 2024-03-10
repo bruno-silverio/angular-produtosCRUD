@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterModule } from "@angular/router";
 
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
@@ -13,7 +14,8 @@ import { HomeComponent } from "../../../views/home/home.component";
     imports: [
         MatSidenavModule,
         MatListModule,
-        HomeComponent
+        HomeComponent,
+        RouterModule
     ]
 })
 export class NavComponent {
