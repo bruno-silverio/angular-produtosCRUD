@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
 import { ProductService } from '../product.service';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-product-read',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './product-read.component.html',
   styleUrl: './product-read.component.css'
 })
