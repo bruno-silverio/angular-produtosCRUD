@@ -6,18 +6,18 @@ form {
   margin-right: 10px;
 }
 
-#container2 {
+#container {
   margin: 0 auto;
   width: 600px;
 }
 
-#divleft2 {
+#divleft {
   float: left;
   height: 70px;
   width: 300px;
 }
 
-#divright2 {
+#divright {
   float: right;
   height: 70px;
   width: 300px;
@@ -30,8 +30,8 @@ button {
   height: 50px;
 }
 
-#btn-left2 {
-  background-color: #3f51b5;
+#btn-left {
+  background-color: #3F51B5;
 }
 
 mat-card-title {
@@ -41,5 +41,5 @@ mat-card-title {
 }
 
 mat-card {
-  background-color: #ffffff;
+  background-color: #ffffff;;
 }

@@ -2,15 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 
 import { Product } from './../product.model';
 import { ProductService } from './../product.service';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-product-update',
   standalone: true,
-  imports: [MatCardModule, MatFormFieldModule, FormsModule],
+  imports: [MatCardModule, MatFormFieldModule, FormsModule, MatInputModule, NgIf],
   templateUrl: './product-update.component.html',
   styleUrl: './product-update.component.css'
 })
@@ -25,15 +27,12 @@ export class ProductUpdateComponent implements OnInit {
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get("id")!;
-    console.log(id);
-    console.log(this.product);
     this.productService.readById(id).subscribe((product) => {
       this.product = product;
     });
   }
 
   updateProduct(): void {
-    console.log(this.product);
     this.productService.update(this.product).subscribe(() => {
       this.productService.showMessage("Produto atualizado com sucesso!");
       this.router.navigate(["/products"]);
