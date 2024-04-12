@@ -4,7 +4,7 @@ import { MatButtonModule } from "@angular/material/button";
 
 import { ProductCreateComponent } from "../../components/product/product-create/product-create.component";
 import { ProductReadComponent } from "../../components/product/product-read/product-read.component";
-
+import { HeaderService } from './../../components/template/header/header.service';
 @Component({
     selector: 'app-product-crud',
     standalone: true,
@@ -18,7 +18,13 @@ import { ProductReadComponent } from "../../components/product/product-read/prod
 })
 export class ProductCrudComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private headerService: HeaderService) {
+    headerService.headerData = {
+      title: 'Cadastro de Produtos',
+      icon: 'storefront',
+      routeUrl: '/products'
+    }
+  }
 
   ngOnInit(): void {
 
