@@ -11,7 +11,7 @@ Create a Registration Application (CRUD) with Product Creation, Reading, Update 
 ## Order of development
 - [x] Backend with JSON Server
 - [x] Header Component
-- [x] Ropadé Component
+- [x] Footer Component
 - [x] Navigation Component
 - [x] Component and Method Create Product
 - [x] Product Table Component
@@ -19,7 +19,9 @@ Create a Registration Application (CRUD) with Product Creation, Reading, Update 
 - [x] Component and Method Change Product
 - [x] Error Messages
 
-<img src="https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/ae11cefe-756b-4fac-ae9e-3703afe3be55" width="70%" height="70%" />
+<p align="center">
+  <img src="https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/ae11cefe-756b-4fac-ae9e-3703afe3be55" width="70%" height="70%"/>
+</p>
 
 https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/7c63a563-b4bc-4f4e-8c13-333dc6fcd114
 
