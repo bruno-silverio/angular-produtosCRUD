@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/template/header/header.component";
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from '@angular/material/input';
 
 @Component({
     selector: 'app-root',
@@ -13,7 +15,9 @@ import { NavComponent } from "./components/template/nav/nav.component";
         RouterOutlet,
         HeaderComponent,
         FooterComponent,
-        NavComponent
+        NavComponent,
+        MatFormFieldModule,
+        MatInputModule
     ]
 })
 export class AppComponent {

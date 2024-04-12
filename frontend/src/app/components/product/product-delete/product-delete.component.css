@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+#divleft {
+  float: left;
+  height: 70px;
+  width: 300px;
+}
+
+#divright {
+  float: right;
+  height: 70px;
+  width: 300px;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 270px;
+  height: 50px;
+}
+
+#btn-left {
+  background-color: #f05435;
+}
+
+mat-card-title {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+mat-card {
+  background-color: #ffffff;;
+}
