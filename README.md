@@ -1,9 +1,22 @@
+# Angular 9 - Essencial
 
+What is covered in the project:
 
-O que é abordado no projeto:
+Develop an Application with Angular
 
-Desenvolver uma Aplicação com Angular 
+The main concepts of Angular 9: Components, Modules, Directives, Pipes, Services, Dependency Injection, Navigation, Observables, RxJS, Consuming a Rest API and more
 
-Os principais conceitos do Angular 9: Componentes, Módulos, Diretivas, Pipes, Services, Injeção de Dependências, Navegação, Observables, RxJS, Consumir uma API Rest e muito mais
+Create a Registration Application (CRUD) with Product Creation, Reading, Update and Deletion.
 
-Criar uma Aplicação de Cadastro (CRUD) com Criação, Leitura, Atualização e Exclusão de Produto
+## Order of development
+- [x] Backend with JSON Server
+- [x] Header Component
+- [x] Ropadé Component
+- [x] Navigation Component
+- [x] Component and Method Create Product
+- [x] Product Table Component
+- [x] Component and Method Delete Product
+- [x] Component and Method Change Product
+- [x] Error Messages
+
+More information: [Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial)
