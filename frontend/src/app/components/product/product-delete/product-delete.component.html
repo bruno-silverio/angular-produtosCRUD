@@ -1,35 +1,37 @@
 <mat-card>
-  <mat-card-title>Excluir Produto</mat-card-title>
+  <mat-card-title>Delete Product</mat-card-title>
   <form>
-    <mat-form-field>
-      <input
-        matInput
-        placeholder="Nome"
-        [value]="product.name"
-        name="name"
-        disabled
-      />
-    </mat-form-field>
-    <mat-form-field>
-      <input
-        matInput
-        placeholder="Preço (R$)"
-        [value]="product.price"
-        name="price"
-        disabled
-      />
-    </mat-form-field>
+    <ng-container *ngIf="product">
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Name"
+          [value]="product.name"
+          name="name"
+          disabled
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Price (R$)"
+          [value]="product.price"
+          name="price"
+          disabled
+        />
+      </mat-form-field>
+    </ng-container>
   </form>
 
   <div id="container">
     <div id="divleft">
       <button id="btn-left" mat-raised-button (click)="deleteProduct()">
-        Excluir
+        Delete
       </button>
     </div>
 
     <div id="divright">
-      <button mat-raised-button (click)="cancel()">Cancelar</button>
+      <button mat-raised-button (click)="cancel()">Cancel</button>
     </div>
   </div>
 </mat-card>

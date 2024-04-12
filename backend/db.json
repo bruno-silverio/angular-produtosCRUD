@@ -1,29 +1,24 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Caneta BIC Preta",
-      "price": 5.89
+      "id": "5496",
+      "name": "Caneta BIC",
+      "price": "1.99"
     },
     {
-      "id": "2",
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
+      "id": "5f31",
+      "name": "Book Vol. 2",
+      "price": "7.99"
     },
     {
-      "id": "3",
-      "name": "Sansung S20+ Ultra",
-      "price": "7520.89"
+      "id": "c91e",
+      "name": "Kindle",
+      "price": "239.00"
     },
     {
-      "id": "4",
-      "name": "Lapis Preto Básico",
-      "price": "1.50"
-    },
-    {
-      "id": "5",
-      "name": "Impressora Canon G3110",
-      "price": "750.60"
+      "id": "9e23",
+      "name": "Iphone 12",
+      "price": "399.89"
     }
   ]
 }

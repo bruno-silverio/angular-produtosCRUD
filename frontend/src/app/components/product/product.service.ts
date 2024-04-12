@@ -37,7 +37,7 @@ export class ProductService {
     );
   }
 
-  readById(id: number): Observable<Product> {
+  readById(id: string): Observable<Product> {
     const url = `${this.baseUrl}/${id}`;
     return this.http.get<Product>(url).pipe(
       map((obj) => obj),
@@ -53,7 +53,7 @@ export class ProductService {
     );
   }
 
-  delete(id: number): Observable<Product> {
+  delete(id: string): Observable<Product> {
     const url = `${this.baseUrl}/${id}`;
     return this.http.delete<Product>(url).pipe(
       map((obj) => obj),
