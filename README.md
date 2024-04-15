@@ -45,7 +45,9 @@ https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/7c63a563-
  - [Angular Material](https://material.angular.io/)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white">
-  <img src="https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/d81a1bc4-de67-4684-85e8-1774dbab7e8b"
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular" />
+    <img src="https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/d81a1bc4-de67-4684-85e8-1774dbab7e8b"
     width="5%" height="5%" />
+  </a>
 </p>
