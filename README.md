@@ -38,11 +38,10 @@ https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/7c63a563-
   <img src="https://github.com/bruno-silverio/angular-produtosCRUD/assets/27282770/ae11cefe-756b-4fac-ae9e-3703afe3be55" width="70%" height="70%"/>
 </p>
 
-## Reference
-
- - [Course Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial)
- - [Angular](https://angular.io/)
- - [Angular Material](https://material.angular.io/)
+## 🔗 Links
+* [🔍 Course Angular 9 - Essencial](https://www.cod3r.com.br/courses/angular-9-essencial)
+* [🔍 Angular](https://angular.io/)
+* [🔍 Angular Material](https://material.angular.io/)
 
 ##
 <p align="center">
